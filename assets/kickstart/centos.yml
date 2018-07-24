@@ -20,7 +20,7 @@ skipx
 url --url http://128.200.84.11/centos/7/os/x86_64/
 
 # rootpw "cisco123"
-# rootpw {{ .env.config.ref }}
+
 rootpw {{ .env.metadata.time_zone }}
 
 # Enable the firewall and open port 22 for SSH remote administration
