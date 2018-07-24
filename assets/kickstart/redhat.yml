@@ -32,6 +32,6 @@ url --url {{ .env.metadata.centos_baseurl }}
 {{ template "os.ks" . }}
 
 # Cloud-init-network configuration
-{{ template "cloudinit.ks" . }}
+# {{ template "cloudinit.ks" . }}
 
 reboot
