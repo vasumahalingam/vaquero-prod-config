@@ -21,9 +21,6 @@ url --url http://128.200.84.11/centos/7/os/x86_64/
 
 rootpw "cisco123"
 
-
-# rootpw {{ .config.ref }}
-
 # Enable the firewall and open port 22 for SSH remote administration
 firewall --enabled --port=22:tcp
 
